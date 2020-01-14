@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto',sans-serif0;
+  
+    
+}
+
+#sidemenu{
+    background:black;
+    max-width: 280px;
+position: fixed;
+    top: 0;
+    bottom: 0;
+	
+
+}
+nav{
+padding-top: 100px;
+
+
+}
+a{
+    
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding:15px 30px ;
+        font-weight: 300;
+        transition: all 0.3s ease-in-out;
+
+
+    }
+
+    
+    a:hover  {
+        
+        border-left: 5px solid red;
+    padding: 15px 30px 15px 25px;
+    border-radius: 10px;
+       
+    }
+
+.fa{
+    color:red;
+font-size: 1.4rem;
+position: relative;
+display: inline-block;
+width: 30px;
+top: 2px;
+
+
+}
+.fas
+{
+    color:red;
+    font-size: 1.4rem;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    top: 2px; 
+}
+.fa-hand-holding-heart
+{
+    margin-left: 650px;
+    font-size: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.fa-brain
+{
+    margin-left: 650px;
+    font-size: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-baby
+{
+    margin-left: 650px;
+    font-size: 50px;
+  
+
+}
+p{
+    margin-left: 300px;   
+}
+
+
+
+.impo
+{
+    text-align: center;
+border: solid black 10px;
+border-radius: 10px;
+margin-left: 250px; 
+
+}
+
+.tip
+{
+    
+    margin-left: 350px; 
+    border-radius: 10px;
+}
+a:active{
+    
+    border-left: 5px solid red;
+    padding: 15px 30px 15px 25px;
+
+}
+#clock{
+width: 50%;
+position:  fixed;
+font-size: 20px;
+color: white;
+margin-top: 20px;
+
+}
+h1{
+    
+    text-align: center;
+    color:red;
+    
+
+    
+}
+ .end
+{
+    
+  
+    
+    box-shadow: black 10px;
+   
+}
+.logo
+{
+    margin-left: 700px;  
+}
+
+
+.connect{
+    text-align: center; 
+    font-size: 10px;
+}
+.welcome{
+    text-align: center; 
+    margin-left:300px ;
+    font-size: 50px;
+    margin-top: 100px;
+    color:orangered;
+    animation: animate 16s ease-in-out infinite;
+}
+@keyframes animate{
+    0%{
+color: black;
+margin-bottom: -40px;
+letter-spacing: 2px;
+    }
+    30%{
+
+        letter-spacing: 5px; 
+        margin-bottom: -40px; 
+      }
+      85%{
+          letter-spacing: 8px;
+  color: blue;
+          margin-bottom: -40px;
+      }
+   
+}
+
+.form-top{
+	margin-top: 30px;
+}
+.panel{
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+	border-radius: 10px;
+    border: 0;
+}
+@-moz-document url-prefix() {
+    .form-control{
+    	height: auto;
+    }
+}
+.form-groups{
+    text-align: center;
+    margin: 20px;
+    font-size: larger;
+    width: 500px;
+}
+
+input 
+{ text-align: center;
+    height: 50px;
+    width: 500px;
+}
+textarea{
+    text-align: center;
+    font-size: larger; 
+    width: 500px;
+    height: 100px;
+}
+
+label
+{
+    font-size: larger; 
+
+}
+.text-danger
+{
+  color: red;  
+  margin-left: 340px;
+  background-color: black;
+}
+.text-success
+{
+    color: green;  
+    margin-left: 340px;
+    background-color: black;
+}
+form
+
+{
+     margin-left: 185px;
+  color: white;
+}
+.row
+{
+    background-color: black;
+    margin: 185px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.container{
+    margin-left: 150px;
+}
+.btn-info
+{
+    background-color:red;
+    background-origin: border-box;
+    width: 100px;
+}
+.wrapper5
+{
+    background-image: url("pic/body1.jpg");
+    background-size: cover;
+    
+    background-attachment: fixed;
+
+}
+.info{
+    font-size: 30px;
+    margin-left: 600px;
+    color:orangered;
+    
+}
+.contact
+{color: white;
+    background-color: black;
+    margin: 250px;
+    border-radius: 10px;
+    opacity: 0.9;
+    width: 1010px;
+
+    
+}
+.cc{
+
+  margin-left: 40px; 
+}
+.wrapper6
+{
+    background-image: url("pic/bs.png");
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+  
+    
+}
+.services
+{
+
+    width: 500px;
+    margin-left: 500px;  
+}
